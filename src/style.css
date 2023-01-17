@@ -140,7 +140,7 @@ html, body{
 }
 .panel ul {
 	padding: 1em 3em;
-	font-size: 1.7rem;
+	/* font-size: 1.7rem; */
 }
 #next-btn{
     margin-bottom: 1VW;
