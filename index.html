@@ -22,20 +22,179 @@
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
     <script src="https://code.highcharts.com/modules/accessibility.js"></script>
-    <script src="js\script.js"></script>
+
     <title>Expt 3</title>
 </head>
 <body>
 <!-------------Header Section------------->
 <div class="container-fluid" id="header">
     <div class="card card-body" id="header-glass">
-        <p class="display-6">POSITIVE SERIES CLIPPER CIRCUIT</p>
+        <p class="display-6">CLIPPER CIRCUITS</p>
     </div>
 </div>
 <!-------------Simulator Section------------->
-<div class="container-fluid" id="half-simulator">
-    <iframe id="responsive-iframe" src="https://www.multisim.com/content/U8psm9tcUpaZT99UkdAPuf/positive-series-clipper-circuit/open/"></iframe>
+<div id="simulator-section">
+    <div class="container-fluid" id="dropdown">
+        <div class="accordion-container">
+            <header class="header">SERIES CLIPPER CIRCUIT</header>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Positive series clipper circuit
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Negative series clipper circuit
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Positive series clipper circuit with positive reference voltage
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Negative series clipper circuit with positive Reference voltage
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Positive series clipper circuit with negative reference voltage
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Negative series clipper circuit with negative reference voltage
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="dropdown">
+        <div class="accordion-container">
+            <header class="header">SHUNT CLIPPER CIRCUIT</header>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Positive shunt clipper circuit
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Negative shunt clipper circuit
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Positive shunt clipper circuit with positive reference voltage
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Negative shunt clipper circuit with positive Reference voltage
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Positive shunt clipper circuit with negative reference voltage
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Negative shunt clipper circuit with negative reference voltage
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="dropdown">
+        <div class="accordion-container">
+            <header class="header">BIASED CLIPPER CIRCUIT</header>
+            <button type="button" class="accordion" id="accordion">
+                <span class="accordion-title">
+                    Double diode parallel clipper biased circuit
+                </span>
+            </button>
+            <div class="panel">
+                <ul>
+                    <li>Pre-designed circuit</li>
+                    <li>Design circuit</li>
+                </ul>
+            </div>
+    </div>
+    <script src="js\script.js"></script>
 </div>
-<a id="next-btn" type="button" class="btn btn-primary" href="negativeseries/index.html">NEXT</a>
+<div id="next">
+    <a id="next-btn" type="button" class="btn btn-primary" href="">NEXT</a>
+</div>
 </body>
 </html>
