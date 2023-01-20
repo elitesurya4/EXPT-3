@@ -166,8 +166,15 @@ html, body{
 	padding: 1em 3em;
 	/* font-size: 1.7rem; */
 }
+.panel ul a{
+	text-decoration: none;
+	color: black;
+}
 .panel li{
 	cursor: pointer;
+}
+.panel li:hover{
+	color: blue;
 }
 #next-btn{
     margin-bottom: 1VW;
@@ -178,12 +185,6 @@ html, body{
 #next{
   margin-bottom: 7vw;
 }
-
-
-
-
-
-
 @media (max-width: 575.98px) {
 	.modal-fullscreen {
 	  padding: 0 !important;
