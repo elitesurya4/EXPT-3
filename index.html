@@ -44,8 +44,8 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
-                    <li class="h4" style="font-weight: normal;">Design circuit</li>
+                    <a id="cust_btn"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
+                    <a id="cust_btn1"><li class="h4" style="font-weight: normal;">Design circuit</li></a>
                 </ul>
             </div>
             <button type="button" class="accordion" id="accordion">
@@ -196,5 +196,105 @@
 <div id="next">
     <a id="next-btn" type="button" class="btn btn-primary" href="">NEXT</a>
 </div>
+<!----------------------------MODAL BOX (pre-designed circuit)-------------------->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+         <h2 class="login-head">LOGIN</h2><br>
+          <form id="form_design" action="#" method="post">
+  
+          <div class="container-fluid">
+            <div class="form-floating" id="place1">
+              <input type="email" placeholder="name@example.com" class="form-control" id="floatingInput">
+              <label for="floatingInput" id="label-id">Your email address</label>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="form-floating" id="place1">
+              <input type="password" placeholder="Password" class="form-control" id="floatingPassword">
+              <label for="floatingPassword" id="label-id">Password</label>
+            </div>
+          </div>
+  
+          <div class="container-fluid" id="go-captcha">
+             <form id="google_captcha" action="?" method="POST">
+               <div class="g-recaptcha" id="google_captcha_1" data-sitekey="your_site_key"></div>
+             </form>
+             <br>
+          </div>
+  
+          <div class="container-fluid">
+            <button class="gradient" id="gradient_submit" type="submit" name="sign-in" value="Sign In">LOGIN</button><br>
+          </div>
+  
+          <div id="go-captcha">
+          <div class="container-fluid">
+            <div class="col">
+              <div class="g-signin2" id="google_login" data-onsuccess="onSignIn"></div>
+            </div>
+          </div>
+        </div>
+            <a class="pass-font" href="forgot_password.html"> Forgot Password ?</a>
+            <div>
+              <p>Don't have an account ? <a class="pass-font" href="forgot_password.html">Create account</a></p>
+            </div>
+           <div><br></div>
+         </form>
+       </div>
+     </div>
+    </div>
+  </div>
+
+  <!----------------------------MODAL BOX (designed circuit)-------------------->
+<div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+         <h2 class="login-head">LOGIN</h2><br>
+          <form id="form_design" action="#" method="post">
+  
+          <div class="container-fluid">
+            <div class="form-floating" id="place1">
+              <input type="email" placeholder="name@example.com" class="form-control" id="floatingInput">
+              <label for="floatingInput" id="label-id">Your email address</label>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="form-floating" id="place1">
+              <input type="password" placeholder="Password" class="form-control" id="floatingPassword">
+              <label for="floatingPassword" id="label-id">Password</label>
+            </div>
+          </div>
+  
+          <div class="container-fluid" id="go-captcha">
+             <form id="google_captcha" action="?" method="POST">
+               <div class="g-recaptcha" id="google_captcha_1" data-sitekey="your_site_key"></div>
+             </form>
+             <br>
+          </div>
+  
+          <div class="container-fluid">
+            <button class="gradient" id="gradient_submit" type="submit" name="sign-in" value="Sign In">LOGIN</button><br>
+          </div>
+  
+          <div id="go-captcha">
+          <div class="container-fluid">
+            <div class="col">
+              <div class="g-signin2" id="google_login" data-onsuccess="onSignIn"></div>
+            </div>
+          </div>
+        </div>
+            <a class="pass-font" href="forgot_password.html"> Forgot Password ?</a>
+            <div>
+              <p>Don't have an account ? <a class="pass-font" href="forgot_password.html">Create account</a></p>
+            </div>
+           <div><br></div>
+         </form>
+       </div>
+     </div>
+    </div>
+  </div>
+
 </body>
 </html>
