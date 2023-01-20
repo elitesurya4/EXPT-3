@@ -55,9 +55,32 @@ html, body{
 #simulator-section{
   margin-bottom: 2vw;
 }
+#half-simulator{
+	position: relative;
+	overflow: hidden;
+	width: 95%;
+	margin-top: 1vw;
+	margin-bottom: 2vw;
+	padding-top: 56.25%;
+	border: 0.33vw solid black;
+}
+#responsive-iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+#iframe-modal{
+	height: auto;
+	width: auto;
+	margin-left: -22.5vw;
+}
 #dropdown{
 	width: 100vw;
-  margin-top: 2vw;
+  	margin-top: 2vw;
 }
 .accordion-container {
 	max-width: 80rem;
@@ -73,7 +96,7 @@ html, body{
 	background-color: #222;
 	padding: 0.5em;
 	display: flex;
-  text-align: center;
+  	text-align: center;
 	justify-content: center;
 	align-items: center;
 }
@@ -143,6 +166,9 @@ html, body{
 	padding: 1em 3em;
 	/* font-size: 1.7rem; */
 }
+.panel li{
+	cursor: pointer;
+}
 #next-btn{
     margin-bottom: 1VW;
     margin-top: 2vw;
@@ -152,3 +178,102 @@ html, body{
 #next{
   margin-bottom: 7vw;
 }
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+	.modal-fullscreen {
+	  padding: 0 !important;
+	}
+	.modal-fullscreen .modal-dialog {
+	  width: 100%;
+	  max-width: none;
+	  height: 100%;
+	  margin: 0;
+	}
+	.modal-fullscreen .modal-content {
+	  height: 100%;
+	  border: 0;
+	  border-radius: 0;
+	}
+	.modal-fullscreen .modal-body {
+	  overflow-y: auto;
+	}
+  }
+  @media (max-width: 767.98px) {
+	.modal-fullscreen-sm {
+	  padding: 0 !important;
+	}
+	.modal-fullscreen-sm .modal-dialog {
+	  width: 100%;
+	  max-width: none;
+	  height: 100%;
+	  margin: 0;
+	}
+	.modal-fullscreen-sm .modal-content {
+	  height: 100%;
+	  border: 0;
+	  border-radius: 0;
+	}
+	.modal-fullscreen-sm .modal-body {
+	  overflow-y: auto;
+	}
+  }
+  @media (max-width: 991.98px) {
+	.modal-fullscreen-md {
+	  padding: 0 !important;
+	}
+	.modal-fullscreen-md .modal-dialog {
+	  width: 100%;
+	  max-width: none;
+	  height: 100%;
+	  margin: 0;
+	}
+	.modal-fullscreen-md .modal-content {
+	  height: 100%;
+	  border: 0;
+	  border-radius: 0;
+	}
+	.modal-fullscreen-md .modal-body {
+	  overflow-y: auto;
+	}
+  }
+  @media (max-width: 1199.98px) {
+	.modal-fullscreen-lg {
+	  padding: 0 !important;
+	}
+	.modal-fullscreen-lg .modal-dialog {
+	  width: 100%;
+	  max-width: none;
+	  height: 100%;
+	  margin: 0;
+	}
+	.modal-fullscreen-lg .modal-content {
+	  height: 100%;
+	  border: 0;
+	  border-radius: 0;
+	}
+	.modal-fullscreen-lg .modal-body {
+	  overflow-y: auto;
+	}
+  }
+  .modal-fullscreen-xl {
+	padding: 0 !important;
+  }
+  .modal-fullscreen-xl .modal-dialog {
+	width: 100%;
+	max-width: none;
+	height: 100%;
+	margin: 0;
+  }
+  .modal-fullscreen-xl .modal-content {
+	height: 100%;
+	border: 0;
+	border-radius: 0;
+  }
+  .modal-fullscreen-xl .modal-body {
+	overflow-y: auto;
+  }

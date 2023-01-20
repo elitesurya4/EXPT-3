@@ -23,6 +23,10 @@
     <script src="https://code.highcharts.com/modules/export-data.js"></script>
     <script src="https://code.highcharts.com/modules/accessibility.js"></script>
 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css'>
+
     <title>Expt 3</title>
 </head>
 <body>
@@ -44,8 +48,8 @@
             </button>
             <div class="panel">
                 <ul>
-                    <a id="cust_btn"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
-                    <a id="cust_btn1"><li class="h4" style="font-weight: normal;">Design circuit</li></a>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
+                    <a><li class="h4" style="font-weight: normal;">Design circuit</li></a>
                 </ul>
             </div>
             <button type="button" class="accordion" id="accordion">
@@ -55,7 +59,7 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal1"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
                     <li class="h4" style="font-weight: normal;">Design circuit</li>
                 </ul>
             </div>
@@ -66,7 +70,7 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal2"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
                     <li class="h4" style="font-weight: normal;">Design circuit</li>
                 </ul>
             </div>
@@ -77,7 +81,7 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal3"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
                     <li class="h4" style="font-weight: normal;">Design circuit</li>
                 </ul>
             </div>
@@ -88,7 +92,7 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal4"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
                     <li class="h4" style="font-weight: normal;">Design circuit</li>
                 </ul>
             </div>
@@ -99,7 +103,7 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal5"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
                     <li class="h4" style="font-weight: normal;">Design circuit</li>
                 </ul>
             </div>
@@ -115,7 +119,7 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal6"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
                     <li class="h4" style="font-weight: normal;">Design circuit</li>
                 </ul>
             </div>
@@ -126,7 +130,7 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal7"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
                     <li class="h4" style="font-weight: normal;">Design circuit</li>
                 </ul>
             </div>
@@ -137,7 +141,7 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal8"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
                     <li class="h4" style="font-weight: normal;">Design circuit</li>
                 </ul>
             </div>
@@ -148,7 +152,7 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal9"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
                     <li class="h4" style="font-weight: normal;">Design circuit</li>
                 </ul>
             </div>
@@ -159,7 +163,7 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal10"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
                     <li class="h4" style="font-weight: normal;">Design circuit</li>
                 </ul>
             </div>
@@ -170,7 +174,7 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal11"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
                     <li class="h4" style="font-weight: normal;">Design circuit</li>
                 </ul>
             </div>
@@ -186,115 +190,293 @@
             </button>
             <div class="panel">
                 <ul>
-                    <li class="h4" style="font-weight: normal;">Pre-designed circuit</li>
+                    <a class="btn-open-modal" data-toggle="modal" data-target="#modal12"><li class="h4" style="font-weight: normal;">Pre-designed circuit</li></a>
                     <li class="h4" style="font-weight: normal;">Design circuit</li>
                 </ul>
             </div>
     </div>
     <script src="js\script.js"></script>
 </div>
+<!----------------------------MODAL BOX (pre-designed circuit 1)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">POSITIVE SERIES CLIPPER CIRCUIT</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/U8psm9tcUpaZT99UkdAPuf/positive-series-clipper-circuit/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<!----------------------------MODAL BOX (pre-designed circuit 2)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">NEGATIVE SERIES CLIPPER CIRCUIT</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/TRs4earRdfAMvgRC7ve9FQ/negative-series-clipper-circuit/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<!----------------------------MODAL BOX (pre-designed circuit 3)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">POSITIVE SERIES CLIPPER CIRCUIT WITH POSITIVE REFERENCE VOLTAGE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/aR5ZzdgjpbPTWbYWZRu2YR/positive-series-clipper-circuit-with-positive-reference-voltage/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<!----------------------------MODAL BOX (pre-designed circuit 4)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">NEGATIVE SERIES CLIPPER CIRCUIT WITH POSITIVE REFERENCE VOLTAGE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/iSxmmB8PDpDMbqHTQ472BX/negative-series-clipper-circuit-with-positive-reference-voltage/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<!----------------------------MODAL BOX (pre-designed circuit 5)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">POSITIVE SERIES CLIPPER CIRCUIT WITH NEGATIVE REFERENCE VOLTAGE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/RyQjTrtM6pF6RTZYZimaaD/positive-series-clipper-circuit-with-negative-reference-voltage/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<!----------------------------MODAL BOX (pre-designed circuit 6)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">NEGATIVE SERIES CLIPPER CIRCUIT WITH NEGATIVE REFERENCE VOLTAGE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/am6YZ72fSa4NsYcqKeumLL/negative-series-clipper-circuit-with-negative-reference-voltage/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'></script>
+<!----------------------------MODAL BOX (pre-designed circuit 7)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">POSITIVE SHUNT CLIPPER CIRCUIT</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/fk2QyEqHpQsaYFqv6y4eHF/positive-shunt-clipper-circuit/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<!----------------------------MODAL BOX (pre-designed circuit 8)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">NEGATIVE SHUNT CLIPPER CIRCUIT</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/83REAQ6fSBbAQvzTbtHweE/negative-shunt-clipper-circuit/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<!----------------------------MODAL BOX (pre-designed circuit 9)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">POSITIVE SHUNT CLIPPER CIRCUIT WITH POSITIVE REFERENCE VOLTAGE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/c3rBGMNEttZNe9aF3EwcPZ/positive-shunt-clipper-circuit-with-positive-reference-voltage/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<!----------------------------MODAL BOX (pre-designed circuit 10)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">NEGATIVE SHUNT CLIPPER CIRCUIT WITH POSITIVE REFERENCE VOLTAGE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/4bGbfni7MFtcWGkkxapwft/negative-shunt-clipper-circuit-with-positive-reference-voltage/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<!----------------------------MODAL BOX (pre-designed circuit 11)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal10" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">POSITIVE SHUNT CLIPPER CIRCUIT WITH NEGATIVE REFERENCE VOLTAGE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/2T8AGXmMvpMiJqdvMNRZNB/positive-shunt-clipper-circuit-with-negative-reference-voltage/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<!----------------------------MODAL BOX (pre-designed circuit 12)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">NEGATIVE SHUNT CLIPPER CIRCUIT WITH NEGATIVE REFERENCE VOLTAGE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/Yz7QVKDuU5znMgD6bL89g2/negative-shunt-clipper-circuit-with-negative-reference-voltage/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<!----------------------------MODAL BOX (pre-designed circuit 13)-------------------->
+<div class="modal modal-fullscreen-xl" id="modal12" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">DOUBLE DIODE PARALLEL CLIPPER BIASED CIRCUIT</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container-fluid" id="half-simulator">
+                <iframe id="responsive-iframe" src="https://www.multisim.com/content/6iDanK3ipvPXFdCyyvxb4z/double-diode-parallel-biased-clipper-circuit/open/"></iframe>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js'></script>
 <div id="next">
     <a id="next-btn" type="button" class="btn btn-primary" href="">NEXT</a>
 </div>
-<!----------------------------MODAL BOX (pre-designed circuit)-------------------->
-<div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-         <h2 class="login-head">LOGIN</h2><br>
-          <form id="form_design" action="#" method="post">
-  
-          <div class="container-fluid">
-            <div class="form-floating" id="place1">
-              <input type="email" placeholder="name@example.com" class="form-control" id="floatingInput">
-              <label for="floatingInput" id="label-id">Your email address</label>
-            </div>
-          </div>
-          <div class="container-fluid">
-            <div class="form-floating" id="place1">
-              <input type="password" placeholder="Password" class="form-control" id="floatingPassword">
-              <label for="floatingPassword" id="label-id">Password</label>
-            </div>
-          </div>
-  
-          <div class="container-fluid" id="go-captcha">
-             <form id="google_captcha" action="?" method="POST">
-               <div class="g-recaptcha" id="google_captcha_1" data-sitekey="your_site_key"></div>
-             </form>
-             <br>
-          </div>
-  
-          <div class="container-fluid">
-            <button class="gradient" id="gradient_submit" type="submit" name="sign-in" value="Sign In">LOGIN</button><br>
-          </div>
-  
-          <div id="go-captcha">
-          <div class="container-fluid">
-            <div class="col">
-              <div class="g-signin2" id="google_login" data-onsuccess="onSignIn"></div>
-            </div>
-          </div>
-        </div>
-            <a class="pass-font" href="forgot_password.html"> Forgot Password ?</a>
-            <div>
-              <p>Don't have an account ? <a class="pass-font" href="forgot_password.html">Create account</a></p>
-            </div>
-           <div><br></div>
-         </form>
-       </div>
-     </div>
-    </div>
-  </div>
-
-  <!----------------------------MODAL BOX (designed circuit)-------------------->
-<div class="modal fade" id="myModal1" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-body">
-         <h2 class="login-head">LOGIN</h2><br>
-          <form id="form_design" action="#" method="post">
-  
-          <div class="container-fluid">
-            <div class="form-floating" id="place1">
-              <input type="email" placeholder="name@example.com" class="form-control" id="floatingInput">
-              <label for="floatingInput" id="label-id">Your email address</label>
-            </div>
-          </div>
-          <div class="container-fluid">
-            <div class="form-floating" id="place1">
-              <input type="password" placeholder="Password" class="form-control" id="floatingPassword">
-              <label for="floatingPassword" id="label-id">Password</label>
-            </div>
-          </div>
-  
-          <div class="container-fluid" id="go-captcha">
-             <form id="google_captcha" action="?" method="POST">
-               <div class="g-recaptcha" id="google_captcha_1" data-sitekey="your_site_key"></div>
-             </form>
-             <br>
-          </div>
-  
-          <div class="container-fluid">
-            <button class="gradient" id="gradient_submit" type="submit" name="sign-in" value="Sign In">LOGIN</button><br>
-          </div>
-  
-          <div id="go-captcha">
-          <div class="container-fluid">
-            <div class="col">
-              <div class="g-signin2" id="google_login" data-onsuccess="onSignIn"></div>
-            </div>
-          </div>
-        </div>
-            <a class="pass-font" href="forgot_password.html"> Forgot Password ?</a>
-            <div>
-              <p>Don't have an account ? <a class="pass-font" href="forgot_password.html">Create account</a></p>
-            </div>
-           <div><br></div>
-         </form>
-       </div>
-     </div>
-    </div>
-  </div>
 
 </body>
 </html>
